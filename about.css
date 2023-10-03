@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-----------HEADRER------------*/
+
+.header{
+    background-image: linear-gradient(to bottom , rgba(0, 0, 145, 0.7),rgba(27, 27, 41, 0.7)),url(images/aerial.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 9rem;
+}
+
+.links{
+float: right;
+margin: 3.5rem 8rem 0.5rem 0rem;
+
+}
+.links span a{
+text-decoration: none;
+color: #fff;
+padding: 1rem;
+cursor: pointer;
+font-size: x-large;
+transition: 1s;
+}
+/*-------HEADER(MOBILE)------*/
+@media screen and (max-width: 600px) {
+.header{
+    width: auto;
+    background-color: rgb(47, 47, 149);
+    top: 0;
+     height: 10rem;
+}
+.img img{
+    width: 25%;
+    height: 25%;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.links{
+    float: right;
+    margin: 0rem 0rem 0rem 1rem;
+    background-color: #000;
+    width: 100%;
+    margin-top: 0.9rem;
+
+}
+.links span a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+}
+
+/*--------ABOUT--------*/
+.about{
+    background-color: rgb(75, 74, 74);
+    width: auto;
+    height: 9rem;
+}
+.about p{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*------ABOUT(MOBILE)------*/
+@media screen and (max-width: 600px) {
+    .about{
+        width: auto;
+    }
+    
+    
+}
+
+/*---------BODY---------*/
+.body-text p{
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 1.1rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.image img{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 80%;
+    mask-repeat: no-repeat;
+    border-radius: 5rem;
+}
+/*------BODY(MOBILE)-----*/
+@media screen and (max-width: 600px) {
+    .body-text p{
+        text-align: left;
+        left: 1rem;
+    }
+    .image img{
+        width: 90%;
+        height: 100%;
+    }   
+}
+/*-------OUR COURSES------*/
+.paragraph{
+    text-align: center;
+    font-size: 2rem;
+}
+.content p{
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem
+}
+.pictures{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 5%;
+}
+.cour1 h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cour1 p{
+    text-align: center;
+}
+.read_more{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+.read_more a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    background-color: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/*-----OUR COURSES(MOBILE)---*/
+@media screen and (max-width: 600px) {
+   .content .paragraph{
+    font-size: 2.5rem;
+    font-weight: bold;
+   }
+    .pictures{
+        display: block;
+        width: auto;
+    }
+    .cour1 img{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .cour1 h4{
+        align-items: center;
+    }
+    .cour1 p{
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+/*-------SUBSCRIBE NOW TO OUR NEWS LETTER-------*/
+.news{
+    display: flex;
+    background-image: url(images/blue_bg.png);
+    gap: 10rem;
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;   
+}
+.subscribe{
+    margin-left: 5%;
+}
+.subscribe h4{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.subscribe p{
+    font-size: 1.2rem;
+}
+.email input{
+    padding: 1rem 2rem 1rem 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+.email label a{
+   padding: 1.2rem 2rem 1.1rem 1rem;
+   font-size: 1.5rem;
+   border-top-right-radius: 2rem;
+   border-bottom-right-radius: 2rem;
+   text-decoration: none;
+   background-color: orange;
+   color: #fff;
+}
+.email label a:hover{
+    background-color: blue;
+    color: yellow;
+}
+/*-------SUBSCRIBE NOW TO OUR NEWS LETTER (MOBILE) -------*/
+@media screen and (max-width: 600px){
+    .news{
+        display: block;
+        width: auto;
+    }
+    .subscribe{
+        margin-left: 1rem;
+    }
+    .subscribe h4{
+        font-size: 1.4rem;
+    }
+    .subscribe p{
+        margin-bottom: 1rem;
+    }
+    .email{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .email input{
+        padding: 0.5rem 1rem 0.5rem 0.5rem;
+        font-size: 1rem;
+        border: none;
+        border-bottom-left-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+    .email label a{
+        padding: 0.5rem 1rem 0.5rem 0.5rem;
+        font-size: 1rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        text-decoration: none;
+        background-color: orange;
+        color: #fff;
+     }
+}
+
+/*------------------Footer------------------------*/
+
+.footer{
+    color: white;
+    background-color: rgb(56, 55, 55);
+    padding: 30px;
+}
+.footer-data{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+.logo img{
+    width: 150px;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+.logo p{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.course h1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.course p{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+.categories h1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.categories p{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+.footer-links h1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.footer-links p{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+@media (max-width: 700px){
+    .footer-data{
+        display: block;
+    }
+    .logo img{
+        width: 80px;
+    }
+    .logo p{
+        font-size: 14px;
+    }
+    .course h1{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    .course p{
+        font-size: 14px;
+    }
+    .categories h1{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    .categories p{
+        font-size: 14px;
+    }
+    .footer-links h1{
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    .footer-links p{
+        font-size: 14px;
+    }
+}
